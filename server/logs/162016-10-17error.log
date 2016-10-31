@@ -1,0 +1,139 @@
+2016-10-17 11:27:37.915 nodejs.CastErrorException: CastError: Cast to ObjectId failed for value "[object Object]" at path "_id"
+    at MongooseError.CastError (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/cast.js:225:32)
+    at Query.cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2685:10)
+    at Query.findOne (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:1298:10)
+    at /Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2244:21
+    at Query.exec (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2238:17)
+    at Object.modify (/Users/lei/projects/node-work/team-research-website/server/controllers/reports.js:150:50)
+    at next (native)
+    at Object.dispatch (/Users/lei/projects/node-work/team-research-website/node_modules/koa-router/lib/router.js:336:7)
+    at next (native)
+    at onFulfilled (/Users/lei/projects/node-work/team-research-website/node_modules/co/index.js:65:19)
+    at /Users/lei/projects/node-work/team-research-website/node_modules/co/index.js:54:5
+    at Object.co (/Users/lei/projects/node-work/team-research-website/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/lei/projects/node-work/team-research-website/node_modules/co/index.js:118:63)
+pid: 20255
+Host: leis-mbp.guest.corp.microsoft.com
+URL: 
+Data: ''
+2016-10-17 11:27:37.915
+
+server error [InternalServerError: 内部错误]
+
+{"request":{"method":"PATCH","url":"/api/reports/[object%20Object]","header":{"host":"localhost:3000","connection":"keep-alive","content-length":"2","accept":"application/json","origin":"http://localhost:8081","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36","content-type":"application/json","referer":"http://localhost:8081/","accept-encoding":"gzip, deflate, sdch, br","accept-language":"zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4,zh-TW;q=0.2,ko;q=0.2"}},"response":{"status":404,"message":"Not Found","header":{"access-control-allow-origin":"http://localhost:8081","access-control-max-age":"604800","access-control-allow-credentials":"true","access-control-allow-methods":"GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE","access-control-allow-headers":"Content-Type, Accept, Authorization"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/api/reports/[object%20Object]","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"}
+
+2016-10-17 11:28:31.654 nodejs.CastErrorException: CastError: Cast to ObjectId failed for value "[object Object]" at path "_id"
+    at MongooseError.CastError (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/cast.js:225:32)
+    at Query.cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2685:10)
+    at Query.findOne (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:1298:10)
+    at /Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2244:21
+    at Query.exec (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2238:17)
+    at Object.modify (/Users/lei/projects/node-work/team-research-website/server/controllers/reports.js:150:50)
+    at next (native)
+    at Object.dispatch (/Users/lei/projects/node-work/team-research-website/node_modules/koa-router/lib/router.js:336:7)
+    at next (native)
+    at onFulfilled (/Users/lei/projects/node-work/team-research-website/node_modules/co/index.js:65:19)
+    at /Users/lei/projects/node-work/team-research-website/node_modules/co/index.js:54:5
+    at Object.co (/Users/lei/projects/node-work/team-research-website/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/lei/projects/node-work/team-research-website/node_modules/co/index.js:118:63)
+pid: 20289
+Host: leis-mbp.guest.corp.microsoft.com
+URL: 
+Data: ''
+2016-10-17 11:28:31.654
+
+server error [InternalServerError: 内部错误]
+
+{"request":{"method":"PATCH","url":"/api/reports/[object%20Object]","header":{"host":"localhost:3000","connection":"keep-alive","content-length":"2","accept":"application/json","origin":"http://localhost:8081","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36","content-type":"application/json","referer":"http://localhost:8081/","accept-encoding":"gzip, deflate, sdch, br","accept-language":"zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4,zh-TW;q=0.2,ko;q=0.2"}},"response":{"status":404,"message":"Not Found","header":{"access-control-allow-origin":"http://localhost:8081","access-control-max-age":"604800","access-control-allow-credentials":"true","access-control-allow-methods":"GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE","access-control-allow-headers":"Content-Type, Accept, Authorization"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/api/reports/[object%20Object]","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"}
+
+2016-10-17 11:29:23.057 nodejs.CastErrorException: CastError: Cast to ObjectId failed for value "[object Object]" at path "_id"
+    at MongooseError.CastError (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/cast.js:225:32)
+    at Query.cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2685:10)
+    at Query.findOne (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:1298:10)
+    at /Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2244:21
+    at Query.exec (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2238:17)
+    at Object.modify (/Users/lei/projects/node-work/team-research-website/server/controllers/reports.js:150:50)
+    at next (native)
+    at Object.dispatch (/Users/lei/projects/node-work/team-research-website/node_modules/koa-router/lib/router.js:336:7)
+    at next (native)
+    at onFulfilled (/Users/lei/projects/node-work/team-research-website/node_modules/co/index.js:65:19)
+    at /Users/lei/projects/node-work/team-research-website/node_modules/co/index.js:54:5
+    at Object.co (/Users/lei/projects/node-work/team-research-website/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/lei/projects/node-work/team-research-website/node_modules/co/index.js:118:63)
+pid: 20312
+Host: leis-mbp.guest.corp.microsoft.com
+URL: 
+Data: ''
+2016-10-17 11:29:23.057
+
+server error [InternalServerError: 内部错误]
+
+{"request":{"method":"PATCH","url":"/api/reports/[object%20Object]","header":{"host":"localhost:3000","connection":"keep-alive","content-length":"2","accept":"application/json","origin":"http://localhost:8081","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36","content-type":"application/json","referer":"http://localhost:8081/","accept-encoding":"gzip, deflate, sdch, br","accept-language":"zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4,zh-TW;q=0.2,ko;q=0.2"}},"response":{"status":404,"message":"Not Found","header":{"access-control-allow-origin":"http://localhost:8081","access-control-max-age":"604800","access-control-allow-credentials":"true","access-control-allow-methods":"GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE","access-control-allow-headers":"Content-Type, Accept, Authorization"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/api/reports/[object%20Object]","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"}
+
+2016-10-17 11:29:57.869 nodejs.CastErrorException: CastError: Cast to ObjectId failed for value "[object Object]" at path "_id"
+    at MongooseError.CastError (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/cast.js:225:32)
+    at Query.cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2685:10)
+    at Query.findOne (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:1298:10)
+    at /Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2244:21
+    at Query.exec (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2238:17)
+    at Object.modify (/Users/lei/projects/node-work/team-research-website/server/controllers/reports.js:150:50)
+    at next (native)
+    at Object.dispatch (/Users/lei/projects/node-work/team-research-website/node_modules/koa-router/lib/router.js:336:7)
+    at next (native)
+    at onFulfilled (/Users/lei/projects/node-work/team-research-website/node_modules/co/index.js:65:19)
+    at /Users/lei/projects/node-work/team-research-website/node_modules/co/index.js:54:5
+    at Object.co (/Users/lei/projects/node-work/team-research-website/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/lei/projects/node-work/team-research-website/node_modules/co/index.js:118:63)
+pid: 20312
+Host: leis-mbp.guest.corp.microsoft.com
+URL: 
+Data: ''
+2016-10-17 11:29:57.869
+
+server error [InternalServerError: 内部错误]
+
+{"request":{"method":"PATCH","url":"/api/reports/[object%20Object]","header":{"host":"localhost:3000","connection":"keep-alive","content-length":"2","accept":"application/json","origin":"http://localhost:8081","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36","content-type":"application/json","referer":"http://localhost:8081/","accept-encoding":"gzip, deflate, sdch, br","accept-language":"zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4,zh-TW;q=0.2,ko;q=0.2"}},"response":{"status":404,"message":"Not Found","header":{"access-control-allow-origin":"http://localhost:8081","access-control-max-age":"604800","access-control-allow-credentials":"true","access-control-allow-methods":"GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE","access-control-allow-headers":"Content-Type, Accept, Authorization"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/api/reports/[object%20Object]","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"}
+
+2016-10-17 11:33:08.565 nodejs.CastErrorException: CastError: Cast to ObjectId failed for value "undefined" at path "_id"
+    at MongooseError.CastError (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/cast.js:225:32)
+    at Query.cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2685:10)
+    at Query.findOne (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:1298:10)
+    at /Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2244:21
+    at Query.exec (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2238:17)
+    at Object.modify (/Users/lei/projects/node-work/team-research-website/server/controllers/reports.js:150:50)
+    at next (native)
+    at Object.dispatch (/Users/lei/projects/node-work/team-research-website/node_modules/koa-router/lib/router.js:336:7)
+    at next (native)
+    at onFulfilled (/Users/lei/projects/node-work/team-research-website/node_modules/co/index.js:65:19)
+    at /Users/lei/projects/node-work/team-research-website/node_modules/co/index.js:54:5
+    at Object.co (/Users/lei/projects/node-work/team-research-website/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/lei/projects/node-work/team-research-website/node_modules/co/index.js:118:63)
+pid: 20312
+Host: leis-mbp.guest.corp.microsoft.com
+URL: 
+Data: ''
+2016-10-17 11:33:08.565
+
+server error [InternalServerError: 内部错误]
+
+{"request":{"method":"PATCH","url":"/api/reports/undefined","header":{"host":"localhost:3000","connection":"keep-alive","content-length":"20","accept":"application/json","origin":"http://localhost:8081","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36","content-type":"application/json","referer":"http://localhost:8081/","accept-encoding":"gzip, deflate, sdch, br","accept-language":"zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4,zh-TW;q=0.2,ko;q=0.2"}},"response":{"status":404,"message":"Not Found","header":{"access-control-allow-origin":"http://localhost:8081","access-control-max-age":"604800","access-control-allow-credentials":"true","access-control-allow-methods":"GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE","access-control-allow-headers":"Content-Type, Accept, Authorization"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/api/reports/undefined","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"}
+
+server error [TypeError: report.save(...).populate is not a function]
+
+{"request":{"method":"POST","url":"/api/reports","header":{"host":"localhost:3000","connection":"keep-alive","content-length":"155","accept":"application/json","origin":"http://localhost:8081","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.59 Safari/537.36","content-type":"application/json","referer":"http://localhost:8081/","accept-encoding":"gzip, deflate, br","accept-language":"zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4,zh-TW;q=0.2,ko;q=0.2"}},"response":{"status":404,"message":"Not Found","header":{"access-control-allow-origin":"http://localhost:8081","access-control-max-age":"604800","access-control-allow-credentials":"true","access-control-allow-methods":"GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE","access-control-allow-headers":"Content-Type, Accept, Authorization"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/api/reports","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"}
+

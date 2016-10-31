@@ -1,0 +1,306 @@
+@import '_settings'
+@import '_font.styl'
+@import 'ionicons.min.css'
+//css reset
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, strong
+  border 0
+  font-family inherit
+  font-style inherit
+  font-weight inherit
+  margin 0
+  outline 0
+  padding 0
+  vertical-align baseline
+
+a
+  img
+    border 0
+
+img
+  border 0
+
+//custom style
+html, body
+  height 100%
+  text-size-adjust 100%
+html
+  overflow-x scroll
+  overflow-y scroll
+body
+  font-family $body-font
+  font-size $body-font-size
+  -webkit-font-smoothing antialiased
+  -moz-osx-font-smoothing grayscale
+  color $medium
+  margin 0
+
+  *
+    box-sizing border-box
+  ul
+    padding 0
+
+  li
+    list-style none
+
+  a
+    text-decoration none
+    color inherit
+
+  p
+    margin 0
+    padding 0
+
+  :focus
+    outline 0
+
+  img
+    border none
+
+  h1, h2, h3, h4, strong
+    font-weight 600
+
+.wrapper
+  position relative
+  margin 0 auto
+  img
+    max-width 100%
+  a
+    text-decoration none
+
+.content
+  margin 0 auto
+  position relative
+  width $main-width
+
+@media screen and (max-width: 1280px)
+  .content
+    width 1200px
+
+@media screen and (max-width: 1200px)
+  .content
+    width 1100px
+
+@media screen and (max-width: 720px)
+  body
+    -webkit-text-size-adjust none
+    font-size 14px
+
+.vertical-center
+  &::before
+    content " "
+    display inline-block
+    height 100%
+    width 0
+    vertical-align middle
+
+.vertical-center-content
+  display inline-block
+  vertical-align middle
+.pink.header-topbar
+  border-bottom 1px solid #ddd
+.pink.header-topbar
+  .content
+    position relative
+.pink.header-topbar
+  color $pink
+.pink.header-topbar
+  .logo
+    background url(../assets/img/head-logo-pink.png) no-repeat left
+    background-size 36px 46px
+.header-topbar
+  height 64px
+  width 100%
+  position relative
+  z-index 10
+  margin 0 auto
+  color #fff
+  .menu-btn
+    font-size 14px
+    position absolute
+    right 0
+    top 15px
+    i
+      font-size 28px
+      vertical-align middle
+      margin-left 10px
+  .logo
+    position absolute
+    left 0
+    top 10px
+    padding-left 55px
+    font-weight normal
+    height 46px
+    font-size 20px
+    line-height 46px
+    background url(../assets/img/head-logo.png) no-repeat left
+    background-size 36px 46px
+
+.list-page
+  span
+    display inline-box
+    vertical-align middle
+    padding 0 5px
+    color #777
+    cursor pointer
+    margin 0 3px
+    border-radius 2px
+    transition all 800ms
+    &:hover
+      background-color $pink
+      color #fff
+  .active
+    background-color $pink
+    color #fff
+  .prev, .next
+    display inline-box
+    vertical-align middle
+    padding 0 10px
+    font-size 16px
+    cursor pointer
+    border-radius 2px
+    transition all 800ms
+    &:hover
+      background-color $pink
+      color #fff
+.report-list
+  display flex
+  flex-wrap wrap
+  li
+    width 17%
+    padding 12px
+    cursor pointer
+    margin-bottom 40px
+    transition all 400ms
+    transform translateY(0)
+    border-radius 2px
+    &:hover
+      transform translateY(-15px)
+      box-shadow 3px 5px 22px rgba(0,0,0,.1)
+  h3
+    margin 15px 0
+    line-height 22px
+    height 44px
+    overflow hidden
+  p
+    margin-bottom 5px
+    width 100%
+    overflow hidden
+    text-overflow ellipsis
+    opacity .6
+    i
+      margin-right 5px
+
+  .list-head
+    height 90px
+    display flex
+    cursor pointer
+    position relative
+    align-items center
+    border-radius 2px
+    justify-content center
+    &:after
+      position absolute
+      content ""
+      left 0
+      right 0
+      top 0
+      bottom 0
+      opacity 0
+      transition all 450ms
+      background rgba(213,37,117,1)
+    span
+      z-index 1
+      font-size 12px
+      position absolute
+      left 8px
+      right 8px
+      bottom 10px
+      transform translateY(15px)
+      transition all 250ms
+      opacity 0
+      color #fff
+    &:hover
+      span
+        transform translateY(0)
+        opacity 1
+      &:after
+        opacity 1
+  .bing
+    background #008272
+  .cortana
+    background #00BCF2
+  .bot
+    background #46900D
+.fix:after,.fix:before
+  display block
+  content "clear"
+  height 0
+  clear both
+  overflow hidden
+  visibility hidden
+
+.icon-bing
+  width: 33px;
+  height: 44px;
+  display inline-block
+  background: url(../assets/img/icon-bing.png) no-repeat center center;
+  background-size: 33px 44px;
+
+.icon-cortana
+  width: 50px;
+  height: 50px;
+  display inline-block
+  background: url(../assets/img/icon-cortana.png) no-repeat center center;
+  background-size: 50px 50px;
+
+.icon-bot
+  width: 40px;
+  height: 38px;
+  display inline-block
+  background: url(../assets/img/icon-bot.png) no-repeat center center;
+  background-size: 40px 38px;
+
+.icon-doc
+  width: 24px;
+  height: 26px;
+  display inline-block
+  background: url(../assets/img/icon-doc.png) no-repeat center center;
+  background-size: 24px 26px;
+
+.icon-book
+  width: 40px;
+  height: 40px;
+  display inline-block
+  background: url(../assets/img/icon-book.png) no-repeat center center;
+  background-size: 40px 40px;
+
+.icon-sm
+  background: url(../assets/img/icon-small.png) no-repeat center center;
+  background-size 20px 192px
+  height 20px
+  width 20px
+  vertical-align middle
+  display inline-block
+
+.icon-sm-doc
+  background-position 0 0
+.icon-sm-bing
+  background-position 0 -24px
+.icon-sm-cortana
+  background-position 0 -50px
+.icon-sm-bot
+  background-position 0 -75px
+.active .icon-sm-doc
+  background-position 0 -99px
+.active .icon-sm-bing
+  background-position 0 -123px
+.active .icon-sm-cortana
+  background-position 0 -149px
+.active .icon-sm-bot
+  background-position 0 -174px
+
+/*这个指令可以隐藏未编译的 Mustache 标签直到实例准备完毕*/
+[v-cloak] {
+  display: none
+}

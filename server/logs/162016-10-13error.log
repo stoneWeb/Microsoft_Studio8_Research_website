@@ -1,0 +1,155 @@
+2016-10-13 14:23:02.309 nodejs.CastErrorException: CastError: Cast to ObjectId failed for value "第" at path "keywords"
+    at MongooseError.CastError (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at /Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/array.js:221:22
+    at Array.map (native)
+    at SchemaArray.castForQuery (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/array.js:216:17)
+    at SchemaArray.cast$all (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/array.js:247:15)
+    at SchemaArray.castForQuery (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/array.js:208:19)
+    at cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/cast.js:220:39)
+    at Query.cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2685:10)
+    at Query.find (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:1139:10)
+    at /Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2244:21
+    at Query.exec (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2238:17)
+    at Object.reportList (/Users/lei/projects/node-work/team-research-website/server/controllers/reports.js:77:8)
+    at next (native)
+    at Object.dispatch (/Users/lei/projects/node-work/team-research-website/node_modules/koa-router/lib/router.js:336:7)
+pid: 33835
+Host: leis-mbp.guest.corp.microsoft.com
+URL: 
+Data: ''
+2016-10-13 14:23:02.309
+
+server error [InternalServerError: 内部错误]
+
+{"request":{"method":"GET","url":"/api/reports?limit=10&query=%E7%AC%AC","header":{"host":"localhost:3000","connection":"keep-alive","authorization":"Basic eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI1N2ZmMWRlNjMzZjA3MTdkMzQxZDY1YzciLCJuYW1lIjoiYWRtaW4iLCJleHAiOjE0NzY0MjQyNDMsImlhdCI6MTQ3NjMzNzg0M30.zVzk6n5daVH5zebVFJn5TpqYkOnM-Cwll8C1EQRYhds","postman-token":"91e38f5b-dcae-c9ba-842d-645654ba3c2e","cache-control":"no-cache","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.50 Safari/537.36","content-type":"application/json","accept":"*/*","accept-encoding":"gzip, deflate, sdch, br","accept-language":"zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4,zh-TW;q=0.2,ko;q=0.2"}},"response":{"status":404,"message":"Not Found","header":{"access-control-allow-origin":"*","access-control-max-age":"604800","access-control-allow-credentials":"true","access-control-allow-methods":"GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE","access-control-allow-headers":"Content-Type, Accept, Authorization"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/api/reports?limit=10&query=%E7%AC%AC","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"}
+
+2016-10-13 14:28:39.531 nodejs.CastErrorException: CastError: Cast to ObjectId failed for value "第" at path "keywords"
+    at MongooseError.CastError (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at /Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/array.js:221:22
+    at Array.map (native)
+    at SchemaArray.castForQuery (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/array.js:216:17)
+    at SchemaArray.castForQuery (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/array.js:208:19)
+    at cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/cast.js:220:39)
+    at Query.cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2685:10)
+    at Query.find (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:1139:10)
+    at /Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2244:21
+    at Query.exec (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2238:17)
+    at Object.reportList (/Users/lei/projects/node-work/team-research-website/server/controllers/reports.js:77:8)
+    at next (native)
+    at Object.dispatch (/Users/lei/projects/node-work/team-research-website/node_modules/koa-router/lib/router.js:336:7)
+    at next (native)
+pid: 33950
+Host: leis-mbp.guest.corp.microsoft.com
+URL: 
+Data: ''
+2016-10-13 14:28:39.531
+
+server error [InternalServerError: 内部错误]
+
+{"request":{"method":"GET","url":"/api/reports?limit=10&query=%E7%AC%AC","header":{"host":"localhost:3000","connection":"keep-alive","authorization":"Basic eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI1N2ZmMWRlNjMzZjA3MTdkMzQxZDY1YzciLCJuYW1lIjoiYWRtaW4iLCJleHAiOjE0NzY0MjQyNDMsImlhdCI6MTQ3NjMzNzg0M30.zVzk6n5daVH5zebVFJn5TpqYkOnM-Cwll8C1EQRYhds","postman-token":"592364bc-c852-eb30-6d5f-224f6a2ccdf9","cache-control":"no-cache","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.50 Safari/537.36","content-type":"application/json","accept":"*/*","accept-encoding":"gzip, deflate, sdch, br","accept-language":"zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4,zh-TW;q=0.2,ko;q=0.2"}},"response":{"status":404,"message":"Not Found","header":{"access-control-allow-origin":"*","access-control-max-age":"604800","access-control-allow-credentials":"true","access-control-allow-methods":"GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE","access-control-allow-headers":"Content-Type, Accept, Authorization"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/api/reports?limit=10&query=%E7%AC%AC","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"}
+
+2016-10-13 14:31:18.510 nodejs.CastErrorException: CastError: Cast to ObjectId failed for value "第" at path "keywords"
+    at MongooseError.CastError (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at /Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/array.js:221:22
+    at Array.map (native)
+    at SchemaArray.castForQuery (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/array.js:216:17)
+    at SchemaArray.cast$all (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/array.js:247:15)
+    at SchemaArray.castForQuery (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/array.js:208:19)
+    at cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/cast.js:220:39)
+    at Query.cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2685:10)
+    at Query.find (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:1139:10)
+    at /Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2244:21
+    at Query.exec (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2238:17)
+    at Object.reportList (/Users/lei/projects/node-work/team-research-website/server/controllers/reports.js:77:8)
+    at next (native)
+    at Object.dispatch (/Users/lei/projects/node-work/team-research-website/node_modules/koa-router/lib/router.js:336:7)
+pid: 34004
+Host: leis-mbp.guest.corp.microsoft.com
+URL: 
+Data: ''
+2016-10-13 14:31:18.510
+
+server error [InternalServerError: 内部错误]
+
+{"request":{"method":"GET","url":"/api/reports?limit=10&query=%E7%AC%AC","header":{"host":"localhost:3000","connection":"keep-alive","authorization":"Basic eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI1N2ZmMWRlNjMzZjA3MTdkMzQxZDY1YzciLCJuYW1lIjoiYWRtaW4iLCJleHAiOjE0NzY0MjQyNDMsImlhdCI6MTQ3NjMzNzg0M30.zVzk6n5daVH5zebVFJn5TpqYkOnM-Cwll8C1EQRYhds","postman-token":"81b9582a-db7b-c0b1-bf77-0eb79df06bcd","cache-control":"no-cache","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.50 Safari/537.36","content-type":"application/json","accept":"*/*","accept-encoding":"gzip, deflate, sdch, br","accept-language":"zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4,zh-TW;q=0.2,ko;q=0.2"}},"response":{"status":404,"message":"Not Found","header":{"access-control-allow-origin":"*","access-control-max-age":"604800","access-control-allow-credentials":"true","access-control-allow-methods":"GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE","access-control-allow-headers":"Content-Type, Accept, Authorization"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/api/reports?limit=10&query=%E7%AC%AC","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"}
+
+2016-10-13 14:32:24.218 nodejs.CastErrorException: CastError: Cast to ObjectId failed for value "第" at path "keywords"
+    at MongooseError.CastError (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at /Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/array.js:221:22
+    at Array.map (native)
+    at SchemaArray.castForQuery (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/array.js:216:17)
+    at SchemaArray.cast$all (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/array.js:247:15)
+    at SchemaArray.castForQuery (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/array.js:208:19)
+    at cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/cast.js:220:39)
+    at Query.cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2685:10)
+    at Query.find (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:1139:10)
+    at /Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2244:21
+    at Query.exec (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2238:17)
+    at Object.reportList (/Users/lei/projects/node-work/team-research-website/server/controllers/reports.js:78:8)
+    at next (native)
+    at Object.dispatch (/Users/lei/projects/node-work/team-research-website/node_modules/koa-router/lib/router.js:336:7)
+pid: 34037
+Host: leis-mbp.guest.corp.microsoft.com
+URL: 
+Data: ''
+2016-10-13 14:32:24.218
+
+server error [InternalServerError: 内部错误]
+
+{"request":{"method":"GET","url":"/api/reports?limit=10&query=%E7%AC%AC","header":{"host":"localhost:3000","connection":"keep-alive","authorization":"Basic eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI1N2ZmMWRlNjMzZjA3MTdkMzQxZDY1YzciLCJuYW1lIjoiYWRtaW4iLCJleHAiOjE0NzY0MjQyNDMsImlhdCI6MTQ3NjMzNzg0M30.zVzk6n5daVH5zebVFJn5TpqYkOnM-Cwll8C1EQRYhds","postman-token":"69fb79fb-ffdf-8b8d-882b-9dcf69316ece","cache-control":"no-cache","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.50 Safari/537.36","content-type":"application/json","accept":"*/*","accept-encoding":"gzip, deflate, sdch, br","accept-language":"zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4,zh-TW;q=0.2,ko;q=0.2"}},"response":{"status":404,"message":"Not Found","header":{"access-control-allow-origin":"*","access-control-max-age":"604800","access-control-allow-credentials":"true","access-control-allow-methods":"GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE","access-control-allow-headers":"Content-Type, Accept, Authorization"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/api/reports?limit=10&query=%E7%AC%AC","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"}
+
+2016-10-13 14:33:26.533 nodejs.CastErrorException: CastError: Cast to ObjectId failed for value "第" at path "keywords"
+    at MongooseError.CastError (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/error/cast.js:26:11)
+    at ObjectId.cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/objectid.js:147:13)
+    at ObjectId.castForQuery (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/objectid.js:187:15)
+    at /Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/array.js:221:22
+    at Array.map (native)
+    at SchemaArray.castForQuery (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/array.js:216:17)
+    at SchemaArray.cast$all (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/array.js:247:15)
+    at SchemaArray.castForQuery (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/schema/array.js:208:19)
+    at cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/cast.js:220:39)
+    at Query.cast (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2685:10)
+    at Query.find (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:1139:10)
+    at /Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2244:21
+    at Query.exec (/Users/lei/projects/node-work/team-research-website/node_modules/mongoose/lib/query.js:2238:17)
+    at Object.reportList (/Users/lei/projects/node-work/team-research-website/server/controllers/reports.js:77:8)
+    at next (native)
+    at Object.dispatch (/Users/lei/projects/node-work/team-research-website/node_modules/koa-router/lib/router.js:336:7)
+pid: 34068
+Host: leis-mbp.guest.corp.microsoft.com
+URL: 
+Data: ''
+2016-10-13 14:33:26.533
+
+server error [InternalServerError: 内部错误]
+
+{"request":{"method":"GET","url":"/api/reports?limit=10&query=%E7%AC%AC","header":{"host":"localhost:3000","connection":"keep-alive","authorization":"Basic eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI1N2ZmMWRlNjMzZjA3MTdkMzQxZDY1YzciLCJuYW1lIjoiYWRtaW4iLCJleHAiOjE0NzY0MjQyNDMsImlhdCI6MTQ3NjMzNzg0M30.zVzk6n5daVH5zebVFJn5TpqYkOnM-Cwll8C1EQRYhds","postman-token":"ece64e9e-c624-852f-ec07-4a589e8ee63d","cache-control":"no-cache","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.50 Safari/537.36","content-type":"application/json","accept":"*/*","accept-encoding":"gzip, deflate, sdch, br","accept-language":"zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4,zh-TW;q=0.2,ko;q=0.2"}},"response":{"status":404,"message":"Not Found","header":{"access-control-allow-origin":"*","access-control-max-age":"604800","access-control-allow-credentials":"true","access-control-allow-methods":"GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE","access-control-allow-headers":"Content-Type, Accept, Authorization"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/api/reports?limit=10&query=%E7%AC%AC","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"}
+
+server error [TypeError: Cannot read property 'length' of null]
+
+{"request":{"method":"GET","url":"/api/reports?limit=10&query=%E7%AC%AC","header":{"host":"localhost:3000","connection":"keep-alive","authorization":"Basic eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI1N2ZmMWRlNjMzZjA3MTdkMzQxZDY1YzciLCJuYW1lIjoiYWRtaW4iLCJleHAiOjE0NzY0MjQyNDMsImlhdCI6MTQ3NjMzNzg0M30.zVzk6n5daVH5zebVFJn5TpqYkOnM-Cwll8C1EQRYhds","postman-token":"79ac4ffe-d165-33e3-f575-7a0153cd030e","cache-control":"no-cache","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.50 Safari/537.36","content-type":"application/json","accept":"*/*","accept-encoding":"gzip, deflate, sdch, br","accept-language":"zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4,zh-TW;q=0.2,ko;q=0.2"}},"response":{"status":404,"message":"Not Found","header":{"access-control-allow-origin":"*","access-control-max-age":"604800","access-control-allow-credentials":"true","access-control-allow-methods":"GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE","access-control-allow-headers":"Content-Type, Accept, Authorization"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/api/reports?limit=10&query=%E7%AC%AC","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"}
+
+server error [TypeError: Cannot read property 'id' of undefined]
+
+{"request":{"method":"GET","url":"/api/reports?limit=10&query=cortana","header":{"host":"localhost:3000","connection":"keep-alive","authorization":"Basic eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI1N2ZmMWRlNjMzZjA3MTdkMzQxZDY1YzciLCJuYW1lIjoiYWRtaW4iLCJleHAiOjE0NzY0MjQyNDMsImlhdCI6MTQ3NjMzNzg0M30.zVzk6n5daVH5zebVFJn5TpqYkOnM-Cwll8C1EQRYhds","postman-token":"2f391272-b5f8-7e1e-5999-d21ec3269e5e","cache-control":"no-cache","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.50 Safari/537.36","content-type":"application/json","accept":"*/*","accept-encoding":"gzip, deflate, sdch, br","accept-language":"zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4,zh-TW;q=0.2,ko;q=0.2"}},"response":{"status":404,"message":"Not Found","header":{"access-control-allow-origin":"*","access-control-max-age":"604800","access-control-allow-credentials":"true","access-control-allow-methods":"GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE","access-control-allow-headers":"Content-Type, Accept, Authorization"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/api/reports?limit=10&query=cortana","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"}
+
+server error [TypeError: Cannot read property 'id' of undefined]
+
+{"request":{"method":"GET","url":"/api/reports?limit=10&query=cortana","header":{"host":"localhost:3000","connection":"keep-alive","authorization":"Basic eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI1N2ZmMWRlNjMzZjA3MTdkMzQxZDY1YzciLCJuYW1lIjoiYWRtaW4iLCJleHAiOjE0NzY0MjQyNDMsImlhdCI6MTQ3NjMzNzg0M30.zVzk6n5daVH5zebVFJn5TpqYkOnM-Cwll8C1EQRYhds","postman-token":"61554141-784d-c3b1-a2d2-abe6152ee8ce","cache-control":"no-cache","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.50 Safari/537.36","content-type":"application/json","accept":"*/*","accept-encoding":"gzip, deflate, sdch, br","accept-language":"zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4,zh-TW;q=0.2,ko;q=0.2"}},"response":{"status":404,"message":"Not Found","header":{"access-control-allow-origin":"*","access-control-max-age":"604800","access-control-allow-credentials":"true","access-control-allow-methods":"GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE","access-control-allow-headers":"Content-Type, Accept, Authorization"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/api/reports?limit=10&query=cortana","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"}
+
+server error [TypeError: Cannot read property 'id' of undefined]
+
+{"request":{"method":"GET","url":"/api/reports?limit=10&query=cortana","header":{"host":"localhost:3000","connection":"keep-alive","authorization":"Basic eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI1N2ZmMWRlNjMzZjA3MTdkMzQxZDY1YzciLCJuYW1lIjoiYWRtaW4iLCJleHAiOjE0NzY0MjQyNDMsImlhdCI6MTQ3NjMzNzg0M30.zVzk6n5daVH5zebVFJn5TpqYkOnM-Cwll8C1EQRYhds","postman-token":"1376e120-78cd-e313-ab26-42325c529971","cache-control":"no-cache","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.50 Safari/537.36","content-type":"application/json","accept":"*/*","accept-encoding":"gzip, deflate, sdch, br","accept-language":"zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4,zh-TW;q=0.2,ko;q=0.2"}},"response":{"status":404,"message":"Not Found","header":{"access-control-allow-origin":"*","access-control-max-age":"604800","access-control-allow-credentials":"true","access-control-allow-methods":"GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE","access-control-allow-headers":"Content-Type, Accept, Authorization"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/api/reports?limit=10&query=cortana","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"}
+
+server error [TypeError: result.toObject is not a function]
+
+{"request":{"method":"PATCH","url":"/api/reports/57ff22b52b59297f0414a08c","header":{"host":"localhost:3000","connection":"keep-alive","content-length":"124","authorization":"Basic eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI1N2ZmMWRlNjMzZjA3MTdkMzQxZDY1YzciLCJuYW1lIjoiYWRtaW4iLCJleHAiOjE0NzY0MjQyNDMsImlhdCI6MTQ3NjMzNzg0M30.zVzk6n5daVH5zebVFJn5TpqYkOnM-Cwll8C1EQRYhds","postman-token":"c1f3602a-020e-3c13-9fbe-dffd0706f42b","cache-control":"no-cache","origin":"chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop","user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.50 Safari/537.36","content-type":"application/json","accept":"*/*","accept-encoding":"gzip, deflate, sdch, br","accept-language":"zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4,zh-TW;q=0.2,ko;q=0.2"}},"response":{"status":404,"message":"Not Found","header":{"access-control-allow-origin":"chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop","access-control-max-age":"604800","access-control-allow-credentials":"true","access-control-allow-methods":"GET, HEAD, OPTIONS, PUT, POST, PATCH, DELETE","access-control-allow-headers":"Content-Type, Accept, Authorization"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/api/reports/57ff22b52b59297f0414a08c","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"}
+

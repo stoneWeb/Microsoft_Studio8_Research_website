@@ -1,0 +1,9 @@
+export const TOKEN_CREATE = 'TOKEN_CREATE'
+export const TOKEN_DELETE = 'TOKEN_DELETE'
+
+export const RECEIVE_ALL_REPORT = 'RECEIVE_ALL_REPORT'
+export const REPORT_FOCUS = 'REPORT_FOCUS'
+export const REPORT_ADD = 'REPORT_ADD'
+export const REPORT_UPDATE = 'REPORT_UPDATE'
+export const REPORT_DELETE = 'REPORT_DELETE'
+export const REPORT_CREATE = 'REPORT_CREATE'
